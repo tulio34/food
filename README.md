@@ -17,7 +17,7 @@ Clone o projeto para sua IDE de preferência
 
 Instale o Appium, recomendo utilizar o Appium Desktop http://appium.io/
 
-Dentro do pom.xml do projeto já vai conter as dependências do cucumber, então é só buildar o projeto com o maven
+Dentro do pom.xml do projeto já vai conter as dependências do cucumber, então é só buildar o projeto com o maven que vai dar tudo certo
 
 Caso ainda não possua, baixe e instale o android studio para Simular um dispositivo Android, ou se preferir utilize um device real em modo de depuração
 
@@ -31,7 +31,7 @@ Substituir "Pixel 2 API 29 2" com o nome do seu device
 ```sh
 caps.setCapability("deviceName", "Pixel 2 API 29 2");
 ```
-Substituir "C:\\Users\\tulio.menezes\\Desktop\\Compasso\\app\\test_ifood.apk" pelo caminho onde encontra-se a sua apk em sua máquina (Obs: Utilizar sempre as duas barras, ao invés de apenas uma, conforme está escrito)
+Substituir "C:\\Users\\tulio.menezes\\Desktop\\Compasso\\app\\test_ifood.apk" pelo caminho onde encontra-se a sua apk em sua máquina (Obs: Utilizar sempre as duas barras, ao invés de apenas uma, conforme está escrito e outra dica importante, o nome do arquivo "nome_Arquivo.apk" não pode ter espaços em branco, caso deseje separar o nome do arquivo sempre utilize caracteres)
 ```sh
 caps.setCapability("app", "C:\\Users\\tulio.menezes\\Desktop\\Compasso\\app\\test_ifood.apk");
 ```
