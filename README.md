@@ -1,16 +1,3 @@
-# food
-Testes Funcionais App Food
-
-Testes criados em Java utilizando as ferramentas + Appium + Cucumber + Android Studio + Eclipse
-
-Para iniciar o projeto importar o mesmo para IDE de sua preferecência (utilizei o eclipse)
-
-        
-Executar o servidor do appium, onde pode ser instalado o Appium Desktop ou Apenas o Appium por linha de comando
-  Segue link do Appium para download e passos para instalação: http://appium.io/
-Executar a classe CadastroTest.java, localizada no path "food/src/test/java/test/CadastroTest.java", para executar a classe você pode clicar com o botão direito na mesma, ir até a opção "Run As" e selecionar a opção "JUnit Test"
-
-
 # Food
 
 
